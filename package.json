@@ -1,0 +1,34 @@
+{
+  "name": "near-crust-ipfs",
+  "version": "1.0.0",
+  "description": "Using Crust dStorage Solution to store and distribute NFT file on Near Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghiattbss/near-crust-ipfs.git"
+  },
+  "dependencies": {
+    "@polkadot/util": "^8.3.2",
+    "bn": "^1.0.5",
+    "ipfs-http-client": "^55.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "near-api-js": "^0.41.0",
+    "near-seed-phrase": "^0.1.0"
+  },
+  "keywords": [
+    "NFT",
+    "Crust",
+    "Near",
+    "Protocol",
+    "IPFS"
+  ],
+  "author": "nghiatt@bsscommerce.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nghiattbss/near-crust-ipfs/issues"
+  },
+  "homepage": "https://github.com/nghiattbss/near-crust-ipfs#readme"
+}
