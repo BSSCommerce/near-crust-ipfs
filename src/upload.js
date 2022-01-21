@@ -2,7 +2,7 @@ const { create } = require('ipfs-http-client');
 
 const ipfsGateway = 'https://crustwebsites.net';
 
-const upload = async (authHeader, content) => {
+async function upload(authHeader, content) {
 
     const ipfs = create({
         url: ipfsGateway + '/api/v0',
@@ -20,5 +20,6 @@ const upload = async (authHeader, content) => {
         path: `${ipfsGateway}/ipfs/${cid.toString()}`
     };
 }
-
-export default upload;
+module.exports = {
+    upload
+};

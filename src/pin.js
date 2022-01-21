@@ -2,7 +2,7 @@
 require('isomorphic-fetch');
 const ipfsPinningService = 'https://pin.crustcode.com/psa';
 
-const pin = async(authHeader, cid, fileName) => {
+async function pin(authHeader, cid, fileName) {
     if (cid.length !== 46) {
         throw new Error('CID len err');
     }
@@ -22,4 +22,6 @@ const pin = async(authHeader, cid, fileName) => {
     }
 
 }
-export default pin;
+module.exports = {
+    pin
+};

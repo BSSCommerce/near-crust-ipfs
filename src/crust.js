@@ -1,8 +1,8 @@
 const { KeyPair } = require('near-api-js');
 const { u8aToHex } = require('@polkadot/util');
-const upload = require('./upload');
-const pin =  require('./pin');
-const uploadToCrust = async (file) => {
+const { upload } = require('./upload');
+const { pin } =  require('./pin');
+async function uploadToCrust(file) {
 
     // 1. get authheader
 
@@ -29,4 +29,6 @@ const uploadToCrust = async (file) => {
     return { cid, path, size };
 }
 
-export default uploadToCrust;
+module.exports = {
+    uploadToCrust
+};
