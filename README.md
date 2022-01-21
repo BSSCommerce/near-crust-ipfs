@@ -3,5 +3,5 @@ A node JS package to upload file using Crust dStorage Solution
 ## Install Package
 `npm i near-crust-ipfs`
 ## How to use
-- `import uploadToCrust from "near-crust-ipfs"`
+- `import { uploadToCrust } from "near-crust-ipfs"`
 - `await uploadToCrust(file)`
