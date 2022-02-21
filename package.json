@@ -1,6 +1,6 @@
 {
   "name": "near-crust-ipfs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Using Crust dStorage Solution to store and distribute NFT file on Near Blockchain",
   "main": "index.js",
   "scripts": {
