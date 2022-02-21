@@ -29,13 +29,13 @@ For NEAR, authHeader can be created by this code block:
     const authHeaderRaw = `near-${address}:${sig}`;
     const authHeader = Buffer.from(authHeaderRaw).toString('base64');
 ```
-##How to use
+## How to use
 
-###Using React Dropzone Component
+### Using React Dropzone Component
 - [React Dropzone](https://react-dropzone.js.org/)
 - [Sample Code](https://github.com/BSSCommerce/picasarts.io---Near/blob/master/src/components/common/ImageUpload.jsx)
 
-###Using html file upload
+### Using html file upload
 Import library to your js file.
 - `import { uploadToCrust } from "near-crust-ipfs"`
 
